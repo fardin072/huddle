@@ -4,21 +4,36 @@ body {
     justify-content: center;
 }
 
-.all{
+.all-body{
     width: 100%;
     max-width: 1440px;
+    /* when use justify-content: center; then must use display: flex;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px red solid; */
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px blue solid; */
 }
 /* hero section  */
 
 .hero {
-    height: 100vh;
+    height: 90vh;
+    margin-bottom: 5vh;
+    width: 100%;
     background-image: url(assets/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     padding-top: 5vh;
     /* when use justify-content: center; then must use display: flex;  */
     display: flex;
     justify-content: center;
+    /* border: 2px red solid; */
 }
+
 
 .hero-content {
     height: 95vh;
@@ -63,15 +78,19 @@ body {
 .description{
     /* border: 2px red solid; */
     /* height: 1100px; */
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 3vh;
+    width: 100%;
+    /* max-width: 1440px; */
 }
 
 .box-one{
+    /* border: 2px red solid; */
     height: 450px;
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.051);
     display: flex;
@@ -80,14 +99,18 @@ body {
 }
 .box-two{
     height: 450px;
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.051);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.box-all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .box-one-text{
     width: 55%;
     padding-left: 10%;
@@ -107,4 +130,16 @@ body {
     width: 30%;
     padding-left: 10%;
     /* border: 2px red solid; */
+}
+
+
+.test{
+    /* when use justify-content: center; then must use display: flex;  */
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    width: 40px;
+    height: 40px;
+    /* background: red; */
 }
