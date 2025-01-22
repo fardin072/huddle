@@ -3,14 +3,36 @@ body {
     justify-content: center;
     font-size: 18px;
 }
-h1{
+
+h1 {
     font-family: "Poppins";
     font-weight: 600;
 }
-p{
+
+p {
     font-family: "Open Sans";
     font-weight: 400;
 }
+
+.btnn{
+    color: white;
+    background-color: #FF619D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btnn:hover {
+    background-color: #ff619e8c;
+    transform: scale(1.05);
+    color: #3b3e41;
+}
+
 .all-body {
     width: 100%;
     max-width: 1440px;
@@ -75,8 +97,22 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
-
+.btn-nav:hover {
+    background-color: #ff619e8c;
+    transform: scale(1.05);
+    color: #3b3e41;
+}
+.icon{
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.icon:hover{
+    color: #FF619D;
+    transform: scale(1.05);
+}
 .community-box {
     height: 90vh;
     /* when use justify-content: center; then must use display: flex;  */
@@ -357,6 +393,7 @@ p{
         justify-content: left;
         /* border: 2px red solid; */
     }
+
     .copyright {
         width: 100%;
         display: flex;
