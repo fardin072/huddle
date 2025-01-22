@@ -29,10 +29,13 @@ The Huddle landing page is a responsive, modern website that includes the follow
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/huddle-landing-page.git
+   git clone https://github.com/fardin072/huddle.git
    ```
 
-2. Open the `index.html` file in your preferred browser to view the landing page.
+2. Open the link in your preferred browser to view the landing page:
+    ```bash
+    https://huddle-the-community.netlify.app/
+    ```
 
 3. Customize the content, styles, and assets as needed.
 
@@ -83,7 +86,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License.
 
 ---
 
