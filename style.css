@@ -228,7 +228,7 @@ body {
 
 /* Responsive for mobile 375 px  */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     .hero {
         height: 97vh;
         margin-bottom: 0%;
