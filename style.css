@@ -1,8 +1,16 @@
 body {
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
-
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+p{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
 .all-body {
     width: 100%;
     max-width: 1440px;
